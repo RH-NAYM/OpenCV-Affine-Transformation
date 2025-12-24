@@ -1,6 +1,6 @@
 # 💡 Affine Transformation in `OpenCV` (Python Tutorial)
 ---
-[![main branch](https://img.shields.io/badge/branch-main-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/main)
+[![main branch](https://img.shields.io/badge/branch-main-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Affine-Transformation/tree/main)
 #
 
 <p align="center">

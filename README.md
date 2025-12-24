@@ -1,6 +1,6 @@
-# 💡 Affine Transformation in OpenCV (Python Tutorial)
+# 💡 Affine Transformation in `OpenCV` (Python Tutorial)
 ---
-[![main branch](https://img.shields.io/badge/branch-main-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/main)
+[![dev branch](https://img.shields.io/badge/branch-dev-red?style=flat&logo=git&logoColor=white)](https://github.com/RH-NAYM/OpenCV-Image-Thresholding/tree/dev)
 #
 
 <p align="center">
@@ -22,13 +22,13 @@
 </p>
 
 # 📌 Overview
-This project provides a comprehensive guide to `Affine Transformation` using `OpenCV` in Python. Affine Transformation is a fundamental geometric operation used in computer vision to perform **translation, rotation, scaling, and shearing** while preserving straight lines and parallelism.
+This project provides a comprehensive guide to `Affine Transformation` using `OpenCV` in Python. Affine Transformation is a fundamental geometric operation used in `computer vision` to perform `translation`, `rotation`, `scaling`, and `shearing` while preserving straight lines and parallelism.
 
 The notebook demonstrates both basic transformations and practical applications in image augmentation and preprocessing.
 ---
 
 The `Jupyter Notebook` demonstrates:
-- **Affine Transformation Basics:** Understanding the 2x3 matrix representation.
+- **Affine Transformation Basics:** Understanding the `2x3` matrix representation.
 - **Applying Transformations:** Using `cv2.getAffineTransform` and `cv2.warpAffine`.
 - **Visual Comparison:** Before and after transformations.
 - **Geometric Intuition:** How points are mapped to new positions.
@@ -43,8 +43,6 @@ The `Jupyter Notebook` demonstrates:
 ├── 📦 requirements.txt                      # Python dependencies
 ├── 🖼️ testImage.jpg                        # Sample image for demonstrations
 └── 🛠️ tools                                # Utility module for image handling
-    ├── __pycache__                          # Python cache directory (auto-generated)
-    │   └── tools.cpython-312.pyc
     └── tools.py                             # Helper functions for loading & visualization
 
 # 📋 Table of Contents (Notebook Sections)
@@ -61,7 +59,7 @@ The `Jupyter Notebook` demonstrates:
 
 # 🧠 What You’ll Learn
 ---
-Affine Math: How the transformation matrix maps points linearly:
+- **Affine Math:** How the transformation matrix maps points linearly:
 $$
 \begin{bmatrix}
 x' \\
@@ -83,11 +81,9 @@ t_y
 \end{bmatrix}
 $$
 
-Image Augmentation: Apply translations, rotations, scaling, and shearing to datasets.
-
-Preservation: Straight lines remain straight; parallel lines remain parallel.
-
-Visualization: Compare original vs transformed images to understand geometric effects.
+- **Image Augmentation:** Apply `translations`, `rotations`, `scaling`, and `shearing` to datasets.
+- **Preservation:** Straight lines remain straight; parallel lines remain parallel.
+- **Visualization:** Compare original vs transformed images to understand geometric effects.
 
 # 🛠️ Technologies Used
 ---
@@ -127,24 +123,18 @@ pip install -r requirements.txt
 
 # ✅ Summary
 ---
-Affine Transformation preserves lines and parallelism while enabling flexible geometric modifications.
-
-It's commonly used in image augmentation, object alignment, and preprocessing.
-
-Selecting proper source and destination points is critical for predictable transformations.
-
-Visual verification is essential to understand the geometric effect on images.
+- Affine `Transformation` preserves lines and parallelism while enabling flexible geometric modifications.
+- It's commonly used in image `augmentation`, `object alignment`, and `preprocessing`.
+- Selecting proper source and destination points is critical for predictable transformations.
+- Visual verification is essential to understand the geometric effect on images.
 
 
 # 🍴 Real-World Applications
 ---
-Machine Learning: Data augmentation to increase training dataset diversity.
-
-Object Detection: Aligning objects to canonical positions.
-
-Medical Imaging: Standardizing orientations of scans before analysis.
-
-Satellite & Aerial Imagery: Correcting geometric distortions in images.
+- **Machine Learning:** Data `augmentation` to increase training dataset diversity.
+- **Object Detection:** `Aligning` objects to canonical positions.
+- **Medical Imaging:** `Standardizing` orientations of scans before analysis.
+- **Satellite & Aerial Imagery:** `Correcting` geometric distortions in images.
 
 # 📝 Contribution
 `Feel free to open an issue or submit a pull request to add more advanced contrast stretching techniques or multi-spectral image examples.`
